@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    
+    font-family: arial, sans-serif;
+    font-size: 0.9em; 
+
+}
+
+a{
+    margin: 5px;
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.headar-nav{
+    display: flex;
+    align-items: center;
+    
+    padding-left: 20px;
+    padding-right: 10px;
+}
+ul>a,ul>img{
+padding:0 8px;
+border-radius:50%;
+}
+.header-img:hover{
+    border-radius:40%;
+    box-shadow: 0 0 5px 0 gainsboro;
+     cursor: pointer;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.googleImg{
+    margin-top: 4.5em;
+}
+.searchBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid gainsboro;
+    border-radius: 20px;
+    width: 580px;
+    height: 40px;
+    margin-top: 1.5em;
+}
+.searchBox:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+#mic:hover{
+    cursor: pointer;
+}
+.searchBox>input{
+    flex-grow: 1;
+    border:none;
+    outline: none;
+}
+.searchBox>img{
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 2em ;
+    
+}
+button:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+    cursor: pointer;
+}
+button{
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+.english{
+    margin-top: 1em;
+}
+#foter{
+    font-size: 14px;
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+footer{
+    
+    position:fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 6.5vw;
+    
+
+
+}
+.one{
+    display: flex;
+    margin-top: 5px;
+    border-bottom: solid 1px gainsboro;
+    background-color:#F2F2F2 ;
+    justify-content: flex-start;
+    padding: 0%;
+    align-self: flex-end;
+}
+
+.leftFoter{
+display: flex;
+justify-content:flex-start;
+padding:0px;
+padding-left: 30px;
+align-self: center;
+}
+
+.rightFoter{
+display: flex;
+margin-right: 30px;
+justify-content: center;
+padding: 0px;
+align-self: flex-end;
+}
+
